@@ -4,25 +4,70 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Page Title</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style> 
+
+    body{ 
+        background-color: rgb(204, 219, 177);
+    }
+         img{
+            
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+       }
+    
+       h1, h4{
+        width:600px;
+        font-size: 30PX;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(35, 73, 28);
+       }
+       p{
+        width: 200px;
+        font-size: 18px;
+        font-family:monospace;
+        color:rgb(17, 88, 79);
+       }
+       
+       #gallery-container{
+        display: inline-block;
+        font-size: 14px;
+       }
+       .image-container{
+        display: inline-block;
+        vertical-align: top;
+
+        
+       }
+
+       #special-word{
+        color:rgb(143, 204, 52);
+       }
+    </style>
+
 </head>
 
 <body>
-    <h1>AHHHHHHHHHHHHH</h1>
-    <p> texts from God, welcome</p> 
-    <div>
-        <div>
-            <img src="/images/catyelling.jpg" alt="a black and orange cat yelling" />
+    <h1>A collection of three images that I found</h1>
+    <h4> very <span id="special-word">good very nice </span></h4> 
+    
+    <div id="gallery-container">
+        <div class="image-container">
+            <img src="images/catyelling.jpg" alt="a black and orange cat yelling" />
+            <p>A black and orange cat yelling.</p>
         </div>
-        <div>
-            <img src="/images/ottereatng.jpg" alt="an otter eating" />
+        <div class="image-contianer">
+            <img src="images/ottereatng.jpg" alt="an otter eating" />
+            <p>An otter eating on some grass.</p>
         </div>
-        <div>
-            <img src="/images/seal_in_water.jpg" alt="a seal looking out of some water" />
+        <div class="image-container">
+            <img src="images/seal_in_water.jpg" alt="a seal looking out of some water" />
+            <p>A seal looking out of some water.</p>
         </div>
-        <img src="/images/catyelling.jpg" alt="a black and orange cat yelling" />
-        <img src="/images/ottereatng.jpg" alt="an otter eating" />
-        <img src="/images/seal_in_water.jpg" alt="a seal looking out of some water" />
+        <img src="images/catyelling.jpg" alt="a black and orange cat yelling" />
+        <img src="images/ottereatng.jpg" alt="an otter eating" />
+        <img src="images/seal_in_water.jpg" alt="a seal looking out of some water" />
     </div>
 
 </body>
